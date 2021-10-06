@@ -1,0 +1,224 @@
+.App{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SideBar{
+    width: 20%;
+    
+}
+
+.Main{
+    width: 78%;
+    
+}
+
+.card{
+    border-radius: 10px !important;
+    margin-bottom: 15px !important;
+    box-shadow: 0 3px 6px #ccc;
+}
+
+.card-header{
+    background-color: white !important;
+    border-bottom: none !important;
+    overflow: hidden !important;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    font-weight: bold;
+}
+
+.CategoryItems{
+    align-items: center;
+}
+
+.inputSearch{
+    outline: none;
+    background-color: lavender;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px #ccc;
+}
+
+.SearchIcon{
+    height: 34px !important;
+    position: relative;
+    cursor: pointer;
+    right: -190px;
+    top: -30px;
+    background-color: lavender;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+}
+
+.inputSearch::placeholder{
+    font-size: 12px;
+}
+
+.AIC{
+    align-items: center !important;
+}
+
+.MuiSlider-colorSecondary{
+    color:#c70909 !important;
+}
+
+.BTN{
+    outline: none;
+    background-color: white;
+    border: 1px solid rgb(230, 35, 35);
+    padding: 2px 15px !important;
+    color: rgb(218, 49, 19);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 7px;
+    box-shadow: 0 2px 4px #ccc;
+    font-size: 13px !important;
+}
+
+.BTN:hover{
+    background-color: rgb(252, 220, 215);
+    color: rgb(131, 84, 84);
+}
+
+.SortBy{
+    border: 1px solid rgb(197, 197, 197);
+    padding: 10px 15px !important;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #ccc;
+}
+
+.btn-sortBy{
+    font-size: 13px !important;
+    padding: 3px 7px !important;
+}
+
+.active{
+    background-color: #c70909 !important;
+    color :white !important;
+}
+
+.m-0{
+    margin: -10px 0 !important;
+}
+
+.products{
+    min-height:100vh !important;
+}
+
+.MuiPagination-ul{
+    text-align: center !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+}
+
+.Pagination{
+    width: 100%;
+    text-align: center !important;
+}
+
+.POS-REL{
+    position: relative;
+}
+
+.POS-ABS{
+    position: absolute;
+    bottom: -15px;
+    background-color: slategrey;
+    width: 100%;
+    padding: 5px 10px;
+    color: white;
+}
+
+.ImgProducts{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.cardParent{
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.cardParent{
+    width: 100%;
+}
+
+.mx-10{
+    margin: 0 5px;
+}
+
+.col-4{
+    width: 32% !important;
+}
+
+.BDR{
+    border-left: 1px solid slategrey;
+}
+
+.close{
+    border:none;
+    width: 20px !important;
+    outline: hidden;
+    background-color: rgb(75, 73, 73);
+    width: 10px !important;
+    height: 0px !important;
+}
+
+.p10{
+    padding: 0 10px;
+}
+
+.txtCEN{
+    text-align: center;
+    justify-content: center;
+}
+
+.FSize12{
+    font-size: 12px;
+}
+
+.OV-HI{
+    overflow: hidden;
+}
+
+.checkbox{
+    height: 30px !important;
+}
+
+.btn-showMore{
+    border: none;
+    color: rgb(189, 28, 28);
+    background-color: white;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* .btn-showMore:hover{
+    background-color: rgb(236, 224, 224);
+} */
+
+.btn-close{
+    width: 0px !important;
+    height: 10px !important;
+}
+
+.close:transform{
+    scale: .5;
+}
+
+.spanFilter{
+    border-radius: 5px;
+    overflow: hidden;
+    color:rgb(255, 255, 255);
+    background-color: rgb(58, 57, 57) !important;
+}
+
